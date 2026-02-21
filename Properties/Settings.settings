@@ -1,0 +1,56 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Nomor_Whatsapp_Sender.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SavedMessage" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MessageTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TemplateActive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">عزيزي المشترك
+%CustomerName%
+
+نود إعلامك بأن اشتراكك في خدمة الإنترنت مع مكتب النمور للانترنت سينتهي قريبًا.
+
+تاريخ انتهاء الاشتراك: %Expiration%
+نوع الاشتراك: %BundleName%
+
+تبقى على انتهاء اشتراكك: %يوم% يوم | %ساعة% ساعة | %دقيقة% دقيقة</Value>
+    </Setting>
+    <Setting Name="TemplateExpired" Type="System.String" Scope="User">
+      <Value Profile="(Default)">عزيزي المشترك
+%CustomerName%
+
+نود إعلامك بأن اشتراكك في خدمة الإنترنت مع مكتب النمور للانترنت منتهي الصلاحية.
+
+
+تاريخ انتهاء الاشتراك: %Expiration%
+نوع الاشتراك: %BundleName%
+
+انتهى اشتراكك قبل: %يوم% يوم | %ساعة% ساعة | %دقيقة% دقيقة</Value>
+    </Setting>
+    <Setting Name="SelectedDays" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IsSchedulerRunning" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NextScheduledTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExpirationStatus" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WhatsAppApiUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://localhost:3111/send?number={phone}&amp;message={message}</Value>
+    </Setting>
+    <Setting Name="LocationCoords" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SendLocation" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

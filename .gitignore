@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# VS directories
+.vs/
+
+# Credentials (sensitive)
+credentials.json
+
+# NuGet
+*.nupkg
+packages/
+
+# Agent/AI config
+.agent/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# User settings (contains saved state, not secrets)
+# *.config is kept for default app settings
